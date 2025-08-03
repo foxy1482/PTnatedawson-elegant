@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/fuentes.css"> <link rel="stylesheet" href="css/styles.css"> <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Nate Dawson</title>
+</head>
+<body>
+    <section class="header-section">
+        <header class="header">
+            <div class="header__openclose">
+                <span class="material-symbols-outlined header__ocbutton">menu</span>
+            </div>
+            <div class="header__div div__logo">
+                <span class="header__logoTitle">NATE</span>
+                <span class="header__logoSubtitle">DAWSON</span>
+            </div>
+            <div class="header__nav-wrapper oculto">
+                <span class="material-symbols-outlined header__ocbutton">menu</span>
+                <nav  class="header__nav oculto">
+                <a href="#s1" class="nav__item">Home</a>
+                <a href="#s2" class="nav__item">Reviews</a>
+                <a href="#s3" class="nav__item">Coach advices</a>
+                <a href="#s4" class="nav__item">Philosophy</a>
+                <a href="#s5" class="nav__item">Training Plans</a>
+                <a href="#s6" class="nav__item">FAQ</a>
+                <a href="#s7" class="nav__item button__openContacto">Contact</a>
+            </nav>
+            </div>
+            <div class="header__div div__whatsapp oculto">
+                <a class="header__wa" id="footerWA" href="https://messenger.com" target="_blank">
+                    <svg class="header__ms-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.24 0 0 4.952 0 11.64c0 3.499 1.434 6.521 3.769 8.61a.96.96 0 0 1 .323.683l.065 2.135a.96.96 0 0 0 1.347.85l2.381-1.053a.96.96 0 0 1 .641-.046A13 13 0 0 0 12 23.28c6.76 0 12-4.952 12-11.64S18.76 0 12 0m6.806 7.44c.522-.03.971.567.63 1.094l-4.178 6.457a.707.707 0 0 1-.977.208l-3.87-2.504a.44.44 0 0 0-.49.007l-4.363 3.01c-.637.438-1.415-.317-.995-.966l4.179-6.457a.706.706 0 0 1 .977-.21l3.87 2.505c.15.097.344.094.491-.007l4.362-3.008a.7.7 0 0 1 .364-.13"/></svg>
+                    <span class="header__ms-text">Messenger</span>
+                </a>
+            </div>
+        </header>
+    </section>
+    <section class="main-section">
+        <main class="main">
+            <div class="sector_inicio" id="s1">
+                <div class="inicio__video-wrapper">
+                    <video autoplay muted loop class="inicio__video activo" id="inicioVideo1">
+                        <source src="vid/100546-video-720.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop class="inicio__video" id="inicioVideo2">
+                        <source src="vid/100549-video-720.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop class="inicio__video" id="inicioVideo3">
+                        <source src="vid/100554-video-720.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="inicio-container">
+                    <h1 class="inicio__title">It's time for your new personal trainer</h1>
+                    <p class="inicio__text blur">Don't expect different results by doing the same thing. If you truly want to change, take the next step and start training with someone who knows what they're doing.</p>
+                    <br>
+                        <div class="inicio__button-container">
+                            <a class="material-symbols-outlined inicio__button blur" href="#s2">arrow_downward</a>
+                        </div>
+                </div>
+            </div>
+            <div class="sector_resultados" id="s2">
+                <div class="resultados-container">
+                    <div class="resultados__opiniones">
+                        <div class="opinion">
+                            <div class="opinion__img-wrapper">
+                                <img class="opinion__img" src="img/clientes/c1a.jpg">
+                                <img class="opinion__img" src="img/clientes/c1b.jpg">
+                            </div>
+                            <p class="parrafo opinion__text">
+                                "Fun fact: we did almost the entire plan remotely, through video calls. I live far away, but Mike adapted to my schedule and never let go. He corrected my posture and technique even through the camera. Honestly, I thought training like this would be kind of a scam, but I ended up surprised. The results speak for themselves!"
+                            </p>
+                            <div class="opinion__quote-wrapper">   
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="21" viewBox="0 0 34 27"><path d="M12.0114 0.5L13.8519 3.84848C12.8186 5.29293 11.85 6.90151 10.9459 8.67424C10.1064 10.447 9.62203 12.2854 9.49288 14.1894L14.8205 15.1742V26.5H0V18.4242C0 13.7626 1.06553 10.0202 3.19658 7.19697C5.39221 4.30808 8.33048 2.07576 12.0114 0.5ZM31.1909 0.5L33.0313 3.84848C31.9981 5.29293 31.0294 6.90151 30.1254 8.67424C29.2858 10.447 28.8015 12.2854 28.6724 14.1894L34 15.1742V26.5H19.1795V18.4242C19.1795 13.7626 20.245 10.0202 22.3761 7.19697C24.5717 4.30808 27.51 2.07576 31.1909 0.5Z"></path></svg>
+                            </div>
+                            <h3 class="opinion__nombre">Yeibert Moreno</h3>
+                        </div>
+                        <div class="opinion">
+                            <div class="opinion__img-wrapper">
+                                <img class="opinion__img" src="img/clientes/c2a.jpg">
+                                <img class="opinion__img" src="img/clientes/c2b.jpg">
+                            </div>
+                            <p class="parrafo opinion__text">
+                                "Before training with Mike, I couldn’t even do five push-ups in a row. Today, not only can I do that, but I even dare to use the pull-up bar. He pushes you without yelling, explains everything, and it’s clear he knows his stuff. The best part is I never felt judged. Thanks to him, I feel good about myself again."
+                            </p>
+                            <div class="opinion__quote-wrapper">   
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="21" viewBox="0 0 34 27"><path d="M12.0114 0.5L13.8519 3.84848C12.8186 5.29293 11.85 6.90151 10.9459 8.67424C10.1064 10.447 9.62203 12.2854 9.49288 14.1894L14.8205 15.1742V26.5H0V18.4242C0 13.7626 1.06553 10.0202 3.19658 7.19697C5.39221 4.30808 8.33048 2.07576 12.0114 0.5ZM31.1909 0.5L33.0313 3.84848C31.9981 5.29293 31.0294 6.90151 30.1254 8.67424C29.2858 10.447 28.8015 12.2854 28.6724 14.1894L34 15.1742V26.5H19.1795V18.4242C19.1795 13.7626 20.245 10.0202 22.3761 7.19697C24.5717 4.30808 27.51 2.07576 31.1909 0.5Z"></path></svg>
+                            </div>
+                            <h3 class="opinion__nombre">Max</h3>
+                        </div>
+                    </div>
+                    <div class="resultados__title-wrapper">
+                        <h2 class="resultados__title">Our reviews</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_blog" id="s3">
+                    <div>
+                        <div>
+                        <h2 class="blog__bigtitle">Coach advices</h2>
+                        <div class="blog-container">
+                            <article class="blog">
+                                <div class="blog__header">
+                                    <span class="blog__icon">🍗</span>
+                                    <h3 class="blog__title">How much protein do I need to eat a day?</h3>
+                                </div>
+                                <p class="blog__description">The quantity that requires your weight, goal and your training method..</p>
+                                <a href="" class="blog__link">Read more..</a>
+                            </article>
+                            <article class="blog">
+                                <div class="blog__header">
+                                    <span class="blog__icon">📉</span>
+                                    <h3 class="blog__title">5 mistakes that ruins your process</h3>
+                                </div>
+                                <p class="blog__description">Training more is not always better. This article explains it clearly.</p>
+                                <a href="" class="blog__link">Read more..</a>
+                            </article>
+                            <article class="blog">
+                                <div class="blog__header">
+                                    <span class="blog__icon">🧠</span>
+                                    <h3 class="blog__title">Training mentality</h3>
+                                </div>
+                                <p class="blog__description">Avoid sabotaging yourself, and conserve your training habit.</p>
+                                <a href="" class="blog__link">Read more..</a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_filosofia" id="s4">
+                <div class="filosofia-container">
+                    <span class="filosofia__icon">...</span>
+                    <h2 class="filosofia__title">Why me?</h2>
+                    <div class="filosofia__content">
+                        <img src="img/ignacio-agachado.jpeg" class="filosofia__img">
+                        <p class="parrafo filosofia__text">
+                            I’m Nate Dawson. A personal trainer, yes — but before anything else, a <span class="negrita">training enthusiast</span>. I started this journey over <span class="negrita">twelve years ago</span>, and I still feel like I'm just getting started. I studied at the <span class="negrita">University of Southern California (USC)</span>, but my learning goes far beyond the classroom. What I’ve come to understand is that the body isn't just about muscles — it’s about patience, consistency, and mindset.
+                            <span class="separador"></span>
+                            At first, I knew nothing. I trained in a <span class="negrita">cheap neighborhood gym</span>, driven by motivation but making countless mistakes. And each mistake pushed me to <span class="negrita">learn</span>. What began as a hobby became my <span class="negrita">lifestyle</span>. And there’s no turning back.
+                            <span class="separador"></span>
+                            I don’t believe in <span class="negrita">magic formulas</span> or shortcuts. I believe in <span class="negrita">real effort</span> — the kind that hurts and builds character. I believe in <span class="negrita">discipline</span>, in facing the hard days, and in surrounding yourself with people who challenge you to <span class="negrita">grow</span>. That’s why today, I want to share everything I’ve learned — in <span class="negrita">university</span>, in the <span class="negrita">gym</span>, on the <span class="negrita">field</span>, and in life. I didn’t walk this path to keep it all to myself. If you’re ready to commit to yourself, I’m here to <span class="negrita">support you</span>.
+                        </p>
+                        <h3 class="filosofia__frase">Change begins when you stop seeking comfort and start seeking truth. And that truth transforms you.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_planes" id="s5">
+                <div class="planes-container">
+                    <div class="plan">
+                        <div class="plan-header">
+                            <div class="plan__etiqueta">Most selled</div>
+                            <h2 class="plan__title">Starter</h2>
+                        </div>
+                        <div class="plan-price">$37.99</div>
+                        <h3 class="plan__subtitle">Quarterly</h3>
+                        <ul class="plan__benefits">
+                            <li>Basic training routine</li>
+                            <li>Basic nutrition plan</li>
+                            <li>24/7 support via direct message</li>
+                        </ul>
+                        <a href="" class="plan__buy">Request Plan</a>
+                    </div>
+                    <div class="plan">
+                        <div class="plan-header">
+                            <div class="plan__etiqueta">Price/Quality</div>
+                            <h2 class="plan__title">Advanced</h2>
+                        </div>
+                        <div class="plan-price">$72.99</div>
+                        <h3 class="plan__subtitle">Quarterly</h3>
+                        <ul class="plan__benefits">
+                            <li>Instructional videos</li>
+                            <li>Custom training routine</li>
+                            <li>Custom nutrition plan</li>
+                            <li>24/7 support via direct message</li>
+                        </ul>
+                        <a href="" class="plan__buy">Request Plan</a>
+                    </div>
+                    <div class="plan">
+                        <div class="plan-header">
+                            <div class="plan__etiqueta">Exclusive</div>
+                            <h2 class="plan__title">Athlete</h2>
+                        </div>
+                        <div class="plan-price">$94.99</div>
+                        <h3 class="plan__subtitle">Monthly</h3>
+                        <ul class="plan__benefits">
+                            <li>Physically prep for any high-performance sport</li>
+                            <li>In-person training</li>
+                            <li>Custom training routine</li>
+                            <li>Custom nutrition plan</li>
+                            <li>24/7 support via direct message</li>
+                        </ul>
+                        <a href="" class="plan__buy">Request Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_faq" id="s6">
+                <div class="faq-container">
+                    <div class="faq">
+                        <h2 class="faq__title">FAQ</h2>
+                        <div class="faq__pregunta-wrapper">
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">Can I train at home?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Yes, if you can keep the training intensity, you can do it. You have to do it the way that you feel better doing it.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">How's the follow-up?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    The follow-up it's based on seeing the evolution of your weight, strenght, based on your training, diet and sleeping. We adjust these last variables to make changes or adaptions.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">I've never went to the gym, what if I make mistakes?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    No one starts knowing. If your progress stops, we can adjust the intensity, check the technique of the exercises, or the diet. The most important thing is that you don't stop training, instead of being perfect.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">
+                                        Every plan contains a nutrition plan?
+                                    </h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Yes, every plan includes it. The starter plan includes a <span class="negrita">basic</span> nutrition plan according to your goal, i.e., to gain more muscular mass, definition and manteinance. The other plans, offer a <span class="negrita">custom</span> nutrition plan, i.e., is adapted to your training, your daily activity, and your personal life.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">When do I start seeing results?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Results appear <span class="negrita">progressively</span>. However, after around <span class="negrita">3 months</span>, a noticeable change is usually visible. The longer you stay consistent, the greater your results will be.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_contacto" id="s7">
+                <ul class="contacto__information">
+                    <h2 class="contacto__info-title">My personal data</h2>
+                    <li class="contacto__info-item">
+                        <span class="material-symbols-outlined contacto__info-icon">mail</span>
+                        <a class="contacto__info-text" href="mailto:igbusTraining@gmail.com">ndawsonPT@gmail.com</a>
+                    </li>
+                    <li class="contacto__info-item">
+                        <span class="material-symbols-outlined contacto__info-icon">call</span>
+                        <a class="contacto__info-text">+1 (213) 555-0198</a>
+                    </li>
+                    <li class="contacto__info-item">
+                        <span class="material-symbols-outlined contacto__info-icon">location_on</span>
+                        <a class="contacto__info-text" href="mailto:">Silver Lake, Los Angeles</a>
+                    </li>
+                    <button class="contacto__info-button">Contact Me</button>
+                </ul>
+                <div class="contacto-wrapper oculto muyoculto">
+                    <button class="material-symbols-outlined contacto__close-button">close</button>
+                    <div class="contacto-container oculto">
+                    <h2 class="contacto__title">Contact</h2>
+                    <form action="" class="contacto">
+                        <div>
+                            <label for="f-nombre" class="contacto__label">Name</label>
+                            <input required maxlength="20" id="f-nombre" name="f-nombre" placeholder="Write your name" type="text" class="contacto__input">
+                        </div>
+                        <div>
+                            <label for="f-email" class="contacto__label">Email</label>
+                            <input required maxlength="35" id="f-email" name="f-email" placeholder="Write your email" type="email" class="contacto__input">
+                        </div>
+                        <div>
+                            <label for="f-tel" class="contacto__label">Phone Number</label>
+                            <input required maxlength="18" id="f-tel" name="f-tel" placeholder="Write your phone number" type="number" class="contacto__input">
+                        </div>
+                        <div>
+                            <label for="f-mensaje" class="contacto__label">Message</label>
+                            <textarea required maxlength="256" id="f-mensaje" name="f-mensaje" placeholder="Write here your message, doubt, request, review" class="contacto__input"></textarea>
+                        </div>
+                        <input type="submit" class="contacto__enviar" value="Send">
+                    </form>
+                </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="footer-section">
+        <footer class="footer">
+            <div class="footer__superior">
+                <ul class="footer__links">
+                    <li class="footer__item"><a href="#s1" class="footer__item-link">Home</a></li>
+                    <li class="footer__item"><a href="#s2" class="footer__item-link">Reviews</a></li>
+                    <li class="footer__item"><a href="#s3" class="footer__item-link">Coach advices</a></li>
+                    <li class="footer__item"><a href="#s4" class="footer__item-link">Philosophy</a></li>
+                    <li class="footer__item"><a href="#s5" class="footer__item-link">Plans</a></li>
+                    <li class="footer__item"><a href="#s6" class="footer__item-link">FAQ</a></li>
+                    <li class="footer__item"><a href="#s7" class="footer__item-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__medio">
+                <a class="footer__link" id="footerIG" href="https://instagram.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </a>
+                <a class="footer__link" id="footerTK" href="https://tiktok.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+                </a>
+                <a class="footer__link" id="footerMS" href="https://messenger.com" target="_blank">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.24 0 0 4.952 0 11.64c0 3.499 1.434 6.521 3.769 8.61a.96.96 0 0 1 .323.683l.065 2.135a.96.96 0 0 0 1.347.85l2.381-1.053a.96.96 0 0 1 .641-.046A13 13 0 0 0 12 23.28c6.76 0 12-4.952 12-11.64S18.76 0 12 0m6.806 7.44c.522-.03.971.567.63 1.094l-4.178 6.457a.707.707 0 0 1-.977.208l-3.87-2.504a.44.44 0 0 0-.49.007l-4.363 3.01c-.637.438-1.415-.317-.995-.966l4.179-6.457a.706.706 0 0 1 .977-.21l3.87 2.505c.15.097.344.094.491-.007l4.362-3.008a.7.7 0 0 1 .364-.13"/></svg>
+                </a>
+                <a class="footer__link" id="footerFB" href="https://facebook.com" target="_blank">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                </a>
+            </div>
+            <div class="footer__inferior">
+                <p class="footer__derechos">© 2025 Nate Dawson. All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+    <script src="js/animations.js"></script>
+</body>
+</html>
